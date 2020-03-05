@@ -243,7 +243,7 @@ footer .container{
 footer h5{
     padding-bottom: 1.2em;
     color: #474747;
-    font-size: 1.3em;
+    font-size: 1.6em;
 
 }
 footer h6{
@@ -258,12 +258,12 @@ footer p{
 /* Página de cadastro*/
 
 .titulo_pagina{
+
     width: 100%;
     height: 370px;
     padding-top: 3em;
-    background-image: url("../img/cadastro.png");
-    background-attachment: fixed;
-    background-size: contain;
+    background-image: url("../img/cadastro.png");    
+    background-size: cover;
     background-repeat: no-repeat;
     color: white;
     display: flex;
@@ -271,5 +271,84 @@ footer p{
     align-items: flex-start;    
     text-transform: uppercase;
     
+    }
+
+.form_cadastro{
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0px 13px 10px rgba( 0, 0, 0,0.5), 0px -6px 10px rgba(114,119,195,0.6),5px 0px 10px rgba(255,0,255,0.3);
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    margin-top: 3em;
+    margin-bottom: 3em;
+    padding: 1em;
+ 
+}
+.campo{
+    margin-bottom: 1em;    
+    width: 100%;     
+    display: flex;
+    justify-content: space-between;
+}
+.campo label{
+    text-transform: uppercase;
 }
 
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="date"],
+select{
+    border: none;
+    background-color: #1e1c21;
+    color:#ccc;
+    border-bottom: 1px solid #474747;
+    width: 60%;
+}
+input[type="date"]{
+    font-size: 1.2em;
+    text-align: center;
+}
+input:focus, select:focus{
+    outline: none;
+    background-color: #474747;
+    box-shadow: 0 0 5px #474747;
+    border-bottom: 1px solid var(--purple);
+}
+
+fieldset{
+    width: 100%;
+    border: none;
+    margin-bottom: 2em;    
+      
+}
+fieldset label{
+    margin-right: 0.3em;
+}
+fieldset legend{
+    text-transform: uppercase;
+}
+input[type="radio"]{
+    margin-right: 0.1em;
+}
+
+.termos{
+    align-items: center;
+    justify-content: start;
+    
+}
+.termos label{
+    text-transform: lowercase;
+    margin-left: 0.5em;
+}
+.form_cadastro button{
+    border: none;
+    width: 60%;
+    margin-top: 2em;
+    cursor:pointer;
+
+}
