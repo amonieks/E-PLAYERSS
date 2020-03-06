@@ -477,6 +477,57 @@ input[type="radio"]{
     .campea{
         display: none;
     }
+    .sobre .container div{
+        width: 8255%;
+        text-align: justify;
+        margin-bottom: 4.2em;
+        margin-right: 1em;
+    }
+    .sobre .container h1{
+        text-align: center;
+    }
+    #horarios .container{
+        flex-direction: column;
+    }
+    .ao_vivo, .em_breve{
+        padding: 1em;
+        border: none;
+    }
+    .partida{
+        margin-bottom: 1em 0;
+        
+    }
+    /* Seção notícias */
+    .card{        
+        flex-direction: column;  
+     
+    }
+    .card img{
+        width: 100%;
+        object-fit: cover;    
+        object-position: top;
+    }
+    .noticias{
+        width: 95%;
+        padding-right: 15px;
+    }
+    .recentes{
+        padding: 0.5em;
+    }
+    .content{
+        flex-direction: column;
+    }
+    footer .container{
+        flex-direction: column;
+    }
+    .container div{
+        margin-bottom: 1em;
+        justify-content: space-around;
+    }.container h5, .mob_logo_sociais{
+        align-content: center;
+    }
+    
+
     
 
         
