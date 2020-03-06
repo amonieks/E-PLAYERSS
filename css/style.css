@@ -352,6 +352,12 @@ input[type="radio"]{
     cursor:pointer;
 
 }
+.cabecalho .fa-bars{
+    color: var(--purple);
+    font-size: 2em;
+    
+    display: none;
+}
 
 @media screen and (max-width: 1200px){
     .campea{
@@ -430,6 +436,53 @@ input[type="radio"]{
 
 }   /* Fim media max 768px */
  
+@media screen and (max-width: 400px)
+    {
+    .cabecalho .fa-bars{
+        display: block;
+    }
+    .cabecalho div{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 2em;
+        width: 100%;
+    }
+    #menu{
+        position: absolute;
+        top:60px;
+        background-color:#474747;
+        width: 100%;
+        display: none;
+    }
+    .banner{
+        max-width: 400px;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    
+    .cabecalho ul{
+        flex-direction: column;
+        height: 250px;
+        
+
+    }
+    .cabecalho ul a{
+        padding: 0.5em 80% 0.5em 0.5em;
+        margin: 0.1em 0;
+        margin-left: 2em;
+        
+    }
+
+    .campea{
+        display: none;
+    }
+    
+
+        
+
+
+}
 
 
 
